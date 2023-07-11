@@ -9,7 +9,7 @@ The project builds on the basic torch environment and several common libraries .
 Here is a simple instruction to install the essential python libraries:
 
 ```bash
-pip install -i requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Datasets and Models
@@ -216,6 +216,19 @@ We have placed our experimental logs in *./logs* directory including the main te
 <img src="README_md_files/f67ab870-3e10-11ed-9ab9-579d6cfc3a57.jpeg?v=1&type=image" alt="image" style="zoom: 67%;" />
 
 Batch image reconstruction on MNIST (FCN-3, BS50) and CIFAR100 (ResNet-18, BS16) compared with IG. We assign a specific label to each instance after label restoration at 100% accuracy. The 6 best visual images are selected to display and calculate the metrics.
+
+## Citation
+
+```
+@inproceedings{
+    ma2023instancewise,
+    title={Instance-wise Batch Label Restoration via Gradients in Federated Learning},
+    author={Kailang Ma and Yu Sun and Jian Cui and Dawei Li and Zhenyu Guan and Jianwei Liu},
+    booktitle={The Eleventh International Conference on Learning Representations },
+    year={2023},
+    url={https://openreview.net/forum?id=FIrQfNSOoTr}
+}
+```
 
 ## License
 
